@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	  <link rel="stylesheet" href="style.css">
+
+    <title>GRADE CALCULATOR</title>
+  </head>
+  <body>
+    <div class="content">
+	  <h1 id="stu">STUDENT GRADE CALCULATOR</h1>
+	  
+	 <!-------columns------->
+	  
+	  
+	  <div class="container">
+		  <div class="row">
+		  <div class="col-sm-4 red">
+			  <h2>YOUR PERCENTAGE IS:</h2>
+			  <h3 id="percentage"></h3>
+			  <h2>YOUR GRADE IS:</h2>
+			  <h3 id="grade"></h3>
+			  </div>
+			  <div class="col-sm-8 blue">
+			  <h1>ENTER YOUR MARKS</h1>
+				  <div class="mb-3">
+    <input type="text" class="form-control" id="physics" placeholder="PHYSICS">
+  </div>
+				     <div class="mb-3">
+    <input type="text" class="form-control" id="chemistry" placeholder="CHEMISTRY">
+  </div>
+  <div class="mb-3">
+    <input type="text" class="form-control" id="maths" placeholder="MATHS">
+  </div>
+				   <div class="mb-3">
+    <input type="text" class="form-control" id="english" placeholder="ENGLISH">
+  </div>
+				
+  
+  <button type="submit" onClick="getmarks()" class="btn btn-primary">Submit</button>
+
+			  </div>
+			  
+		  </div>
+		  
+		  <div class="row">
+		  
+		  <div class="co-sm-12 white">
+			  <h3 id="pass"></h3>
+			  </div>
+		  </div>
+		  </div>
+		  
+<!-------------footer-------------->
+		 <footer class="text-center text-white fixed-bottom" style="background-color: #21081a;">
+  <!-- Grid container -->
+  <div class="container p-4"></div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="#">MYWEBSITE.COM</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<script src="script.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+	  
+		  
+		   
+  </body>
+</html>

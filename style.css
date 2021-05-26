@@ -1,0 +1,23 @@
+body{
+	background-color: burlywood;
+}
+.content{
+	padding: 3%;
+}
+.red{
+	background-color: coral;
+	padding: 3%;
+}
+.blue{
+	background-color: cadetblue;
+	padding: 4%;
+}
+#stu{
+	padding: 2% 7%; 
+}
+.grade{
+	padding: 2%;
+}
+.white{
+	background-color: aliceblue;
+}
